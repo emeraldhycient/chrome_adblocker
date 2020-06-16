@@ -1,0 +1,15 @@
+{
+    "name": "rald adblocker",
+    "version": "1.0.1",
+    "description": "best adblocker for google chrome users made by igweze hycient",
+    "permissions":["webRequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts":["background.js"]
+    },
+    "icons":{
+        "16": "./icons/icons8-fat-cop-16.png",
+    "48": "./icons/icons8-fat-cop-48.png",
+    "128": "./icons/icons8-fat-cop-100.png"
+    },
+    "manifest_version":2
+}
